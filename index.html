@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Language Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>AI Language Translation Tool</h1>
+
+  <div class="translator-box">
+
+    <div class="panel">
+      <label>From</label>
+      <select id="sourceLanguage"></select>
+
+      <textarea
+        id="sourceText"
+        placeholder="Enter text here..."
+      ></textarea>
+    </div>
+
+    <div class="panel">
+      <label>To</label>
+      <select id="targetLanguage"></select>
+
+      <div id="translatedText" class="output-box"></div>
+
+      <div class="buttons">
+        <button id="copyButton">Copy</button>
+        <button id="speakButton">Speak</button>
+      </div>
+    </div>
+
+  </div>
+
+  <button id="translateButton" class="translate-btn">
+    Translate
+  </button>
+
+  <p id="status"></p>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
