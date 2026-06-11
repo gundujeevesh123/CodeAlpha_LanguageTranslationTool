@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Improved CodeAlpha Language Translation Tool
 
 ## Features
